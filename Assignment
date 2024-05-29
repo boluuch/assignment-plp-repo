@@ -1,0 +1,137 @@
+Setting Up Your Developer Environment
+Objective:
+To establish a productive developer environment tailored to software engineering projects, encompassing operating system setup, IDE installation, version control configuration, programming language installation, database configuration, and exploration of extensions and plugins.
+
+Tasks:
+1. Select Your Operating System (OS):
+Chosen OS: Windows 11
+
+Download and Install Windows 11:
+Visit Microsoft's Windows 11 Download Page.
+Click "Download now" under the Windows 11 Installation Assistant.
+Follow the on-screen instructions to download and install Windows 11.
+2. Install a Text Editor or Integrated Development Environment (IDE):
+Chosen IDE: Visual Studio Code
+
+Download and Install Visual Studio Code:
+Visit Visual Studio Code Download Page.
+Choose the Windows installer and download it.
+Run the installer and follow the instructions to complete the installation.
+3. Set Up Version Control System:
+Version Control System: Git
+
+Install Git:
+
+Visit Git Downloads.
+Download the Git installer for Windows.
+Run the installer and follow the instructions, choosing default settings.
+Configure Git:
+
+Open Git Bash (installed with Git).
+Set up your username and email:
+bash
+Copy code
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Create a GitHub Account:
+
+Visit GitHub.
+Sign up for a new account if you don't already have one.
+Initialize a Git Repository:
+
+Create a new directory for your project:
+bash
+Copy code
+mkdir my_project
+cd my_project
+Initialize a Git repository:
+bash
+Copy code
+git init
+Create a sample file and make your first commit:
+bash
+Copy code
+echo "# My Project" > README.md
+git add README.md
+git commit -m "Initial commit"
+4. Install Necessary Programming Languages and Runtimes:
+Chosen Language: Python
+
+Install Python:
+Visit Python's official website.
+Download the latest version of Python for Windows.
+Run the installer and ensure to check the "Add Python to PATH" option.
+Verify installation:
+bash
+Copy code
+python --version
+5. Install Package Managers:
+Install pip:
+Pip is included with Python 3.4+ installations. Verify pip installation:
+bash
+Copy code
+pip --version
+6. Configure a Database (MySQL):
+Chosen Database: MySQL
+
+Download and Install MySQL:
+Visit MySQL Installer.
+Download the MySQL Installer for Windows.
+Run the installer and follow the instructions to install MySQL Server and MySQL Workbench.
+7. Set Up Development Environments and Virtualization (Optional):
+Optional Tool: Docker
+
+Install Docker:
+Visit Docker's official website.
+Download and install Docker Desktop for Windows.
+Follow the installation instructions and run Docker Desktop.
+8. Explore Extensions and Plugins:
+Visual Studio Code Extensions:
+
+Python Extension:
+Open Visual Studio Code.
+Go to Extensions (Ctrl+Shift+X).
+Search for "Python" and install the Microsoft Python extension.
+GitLens:
+Search for "GitLens" and install it to enhance Git capabilities in VS Code.
+Prettier:
+Search for "Prettier - Code formatter" and install it for code formatting.
+Documentation:
+Step-by-Step Setup Process:
+Operating System:
+
+Download and install Windows 11 from the official website.
+Follow the installation prompts to complete the OS setup.
+IDE Installation:
+
+Download Visual Studio Code from its official website.
+Run the installer and complete the setup.
+Version Control Setup:
+
+Install Git from the official Git website.
+Configure Git with your username and email.
+Create a GitHub account and initialize a repository.
+Make your first commit to the repository.
+Programming Language Installation:
+
+Download and install Python from the official website.
+Verify Python and pip installations.
+Database Configuration:
+
+Download and install MySQL using the MySQL Installer.
+Configure MySQL Server and Workbench.
+Optional Virtualization:
+
+Install Docker Desktop if virtualization is needed.
+Extensions and Plugins:
+
+Install Python, GitLens, and Prettier extensions in Visual Studio Code.
+Reflection:
+Challenges and Solutions:
+
+Issue: Initial issues with Windows 11 installation due to hardware compatibility.
+Solution: Ensured system met minimum requirements and updated BIOS firmware.
+Issue: Git configuration errors due to incorrect user details.
+Solution: Rechecked and correctly set the user.name and user.email configurations.
+Issue: Python not recognized in PATH.
+Solution: Added Python to PATH manually via system environment variables.
